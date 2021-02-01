@@ -1,0 +1,29 @@
+Steps for launching ec2-instance
+--
+#Step 1: Choose an Amazon Machine Image (AMI)
+[Quick Start] Section: AMI porvided by AWS -> Amazon Linux 2 AMI,macOS Catalina[10.15.7],Red Hat Enterprise Linux 8,Ubuntu Server
+[My AMIs] : Image that user has created.. 
+
+#Step 2: Choose an Instance Type->
+Chose Family: t2,t3,c3,c4,r,m,
+
+#Step 3: Configure Instance Details->
+Number of instances:
+Purchasing option: -> Request Spot instances
+Network -> VPC
+Subnet  -> us-east-1e [us-east-1:US East(N. Virginia)]
+					  [us-east-2:US East (Ohio)]
+					  [us-west-1:US West (N. California)]
+					  [us-west-2:US West (Oregon)]
+					  [ap-south-1: Asia Pacific (Mumbai)]
+Auto-assign Public IP: 
+
+#Step 4: Add Storage:
+General Purpose SSD(gp2),gp3,Provisioned IOPS [Request number of in/out operations per second that vol can support]					  
+
+#Step 5: Add Tags: Tags for your instance [Tags genraly are names given to the instances]
+
+#Step 6: Configure Security Group
+By Default: SSH [Protocol:TCP, Port Range:22, Source [Allowed source IP to pass through]
+
+#Step 7: Review Instance Launch
