@@ -1,0 +1,14 @@
+Interview Questions on AWS S3 [https://www.onlineinterviewquestions.com/aws-s3-interview-questions/#question1]
+•	1) Explain AWS S3 bucket?
+•	2) What is the maximum size of S3 bucket?
+•	3) How to list objects of a S3 bucket?
+•	4) Explain process of mounting s3 to ec2 instance?
+•	5) How to install aws s3 cli?
+•	6) How to clear AWS S3 cache?
+•	7) How to delete a AWS s3 bucket?
+•	8) How to get AWS S3 access key?
+•	9) What are options available for protecting data at rest in Amazon S3?
+•	10) Explain S3 Versioning? What are benefits of using versioning in S3.
+•	11) How to Configure Versioning on a Bucket?
+•	12) How to enable Multipart Upload capability in Amazon S3.
+•	13) What is AWS s3fs.
